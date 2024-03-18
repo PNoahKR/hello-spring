@@ -21,7 +21,7 @@ public class MemberService {
     }
 
     /**
-     * 회원가입
+     * 회원가입 입니당.
      */
     public Long join(Member member) {
         validateDuplicateMember(member); //중복 회원 검증
